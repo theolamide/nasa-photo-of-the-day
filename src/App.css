@@ -1,5 +1,14 @@
+#root{
+  max-width: 700px;
+}
+
 .App {
   text-align: center;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #9be9f2;
 }
 
 .App-logo {
@@ -10,7 +19,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.contanier {
+  max-width: 500px;
+}
+
+
+.imageContainer {
+  width: 75%;
+  border-radius: 2.5rem;
+}
+
+.image-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.excerpt{
+  max-width: 80%;
+  background: white;
+  margin: 16px;
+  border: 20px solid white;
+  border-radius: 2.5rem;
 }
